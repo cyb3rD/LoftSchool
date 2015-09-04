@@ -1,0 +1,227 @@
+@font-face {
+    font-family: FiraSans;
+    src: url('../fonts/firasans-book.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: FiraSansLight;
+    src: url('../fonts/firasans-light.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body {
+	width: 1400px;
+	/*height: 767px;*/
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/comppattern2.png');
+	font-family: FiraSans;
+}
+
+h1 {
+	display: inline;
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 18px;
+	height: 68px;
+	width: auto;
+    line-height: 70px;
+	/*font-family: FiraSans;*/
+    font-size: 21px;
+    color: #3ba8c0;
+    border-bottom:2px solid #3ba8c0;
+}
+
+nav {
+	display: block;
+	float: left;
+	margin-top: 38px;
+	margin-left: 220px;
+	width: 251px;
+	/*height: 220px;*/
+}
+
+section {
+	display: block;
+	float: right;
+	margin-right: 220px;
+	margin-top: 38px;
+	padding-bottom: 22px;
+	width: 650px;
+	border-radius: 2px;
+	background-color: #eff3f7;
+}
+
+.page-header {
+	height: 116px;
+	background: #eff3f7;
+}
+.line-gradient {
+	clear: both;
+	height: 3px;
+	background: -webkit-radial-gradient(#1e677b, #e7eff3); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#1e677b, #e7eff3); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#1e677b, #e7eff3); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#1e677b, #e7eff3); /* Standard syntax (must be last) */
+}
+.img-logo-pic {
+	margin-left: 220px;
+	margin-right: 14px;
+	margin-top: 39px;
+}
+.share {
+	margin-left: 920px;
+	margin-top: -48px;
+}
+.social {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    	-moz-border-radius: 23px;
+    	-webkit-border-radius: 23px;
+    vertical-align: middle;
+    margin-right: 16px;
+    background: #58697a;
+    background-image: url('../img/social-buttons.png');
+    background-repeat: no-repeat;
+}
+
+.social-vk {
+	margin-left: 20px;
+	background-position: 0px 0px;
+}
+.social-vk:hover {
+	background: #3ba8c0;
+	background-image: url('../img/social-buttons.png');
+	background-position: 0px 0px;
+}
+
+.social-tw {
+	background-position: -73px 0px;
+}
+
+.social-tw:hover {
+	background: #3ba8c0;
+	background-image: url('../img/social-buttons.png');
+	background-position: -73px 0px;
+}
+
+.social-fb {
+	background-position: -143px 0px;
+}
+
+.social-fb:hover {
+	background: #3ba8c0;
+	background-image: url('../img/social-buttons.png');
+	background-position: -143px 0px;
+}
+
+.social-gh {
+	background-position: -214px 0px;
+	margin-right: 0px;
+	text-align: left;
+}
+
+.social-gh:hover {
+	background: #3ba8c0;
+	background-image: url('../img/social-buttons.png');
+	background-position: -214px 0px;
+}
+
+.side-menu {
+    margin:0;
+    padding:0px;
+    list-style:none;
+    width:251px;
+}
+
+.side-menu>.opened>a{
+    background:#3ba8c0;
+    color: #fff;
+}
+
+.side-menu>.about-me>a{
+	 border-bottom:none;
+	 color: #959aa8;
+}
+
+.side-menu>li{
+    color:#5eb3c8;
+    background:#eff3f7;
+}
+
+.side-menu>li:last-child{
+    border-bottom:none;
+}
+.side-menu a{
+    display:block;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 28px;
+    background:#eff3f7;
+    text-decoration:none;
+    font-size: 21px;
+    border-bottom:2px solid #3ba8c0;
+    color:#5eb3c8;
+}
+
+.side-menu a:first-child{
+	border-radius: 2px 2px 0px 0px;
+}
+
+.description {
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.info {
+	margin-top: 27px;
+	margin-bottom: 20px;
+	margin-left: 54px;
+	background-repeat: no-repeat;
+    background-position: 0px center;
+}
+
+.work {
+	background-image: url('../img/work.png');
+}
+
+.degree {
+	background-image: url('../img/learn.png');
+}
+
+.courses {
+	background-image: url('../img/courses.png');
+}
+
+.title {
+	margin-left: 65px; 
+	font-size: 17px;
+}
+
+.time {
+	margin-left: 65px; 
+	font-family: FiraSansLight;
+	font-size: 15px;
+}
+
+.footer-margin {
+	margin-bottom: 35px;
+}
+.page-footer {
+	height: 76px;
+	line-height: 80px;
+	background: #eff3f7;
+    font-size: 13px;
+    text-align: center;
+}
+.img-login {
+	margin-top: 23px;
+	margin-right: 230px;
+}
+
