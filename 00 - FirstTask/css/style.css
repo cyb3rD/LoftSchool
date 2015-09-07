@@ -12,12 +12,18 @@
 }
 
 html, body {
-	width: 1400px;
-	/*height: 767px;*/
+	min-width: 960px;
 	margin: 0px;
 	padding: 0px;
 	background-image: url('../img/comppattern2.png');
 	font-family: FiraSans;
+}
+
+header {
+	background-color: #eff3f7;
+	height: 116px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1 {
@@ -29,7 +35,6 @@ h1 {
 	height: 68px;
 	width: auto;
     line-height: 70px;
-	/*font-family: FiraSans;*/
     font-size: 21px;
     color: #3ba8c0;
     border-bottom:2px solid #3ba8c0;
@@ -41,7 +46,6 @@ nav {
 	margin-top: 38px;
 	margin-left: 220px;
 	width: 251px;
-	/*height: 220px;*/
 }
 
 section {
@@ -55,10 +59,19 @@ section {
 	background-color: #eff3f7;
 }
 
-.page-header {
-	height: 116px;
+.header-content {
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 116px;
+	width: 960px;
 	background: #eff3f7;
 }
+
+/* Logo vertical align */
+.header-content img {
+	vertical-align: middle;
+}
+
 .line-gradient {
 	clear: both;
 	height: 3px;
@@ -67,14 +80,18 @@ section {
     background: -moz-radial-gradient(#1e677b, #e7eff3); /* For Firefox 3.6 to 15 */
     background: radial-gradient(#1e677b, #e7eff3); /* Standard syntax (must be last) */
 }
+
+.content {
+	border: 1px solid black;
+}
+
 .img-logo-pic {
 	margin-left: 220px;
 	margin-right: 14px;
 	margin-top: 39px;
 }
 .share {
-	margin-left: 920px;
-	margin-top: -48px;
+	float: right;
 }
 .social {
     display: inline-block;
