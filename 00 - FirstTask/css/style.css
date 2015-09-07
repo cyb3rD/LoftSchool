@@ -43,18 +43,14 @@ h1 {
 nav {
 	display: block;
 	float: left;
-	margin-top: 38px;
-	margin-left: 220px;
-	width: 251px;
+	/*width: 251px;*/
 }
 
 section {
 	display: block;
 	float: right;
-	margin-right: 220px;
-	margin-top: 38px;
-	padding-bottom: 22px;
-	width: 650px;
+	min-width: 650px;
+	margin-bottom: 26px;
 	border-radius: 2px;
 	background-color: #eff3f7;
 }
@@ -81,15 +77,14 @@ section {
     background: radial-gradient(#1e677b, #e7eff3); /* Standard syntax (must be last) */
 }
 
-.content {
-	border: 1px solid black;
+.main-content {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 38px;
+	margin-bottom: 10px;
+	width: 960px;
 }
 
-.img-logo-pic {
-	margin-left: 220px;
-	margin-right: 14px;
-	margin-top: 39px;
-}
 .share {
 	float: right;
 }
@@ -242,3 +237,6 @@ section {
 	margin-right: 230px;
 }
 
+.clearfix {
+  overflow: auto;
+}
