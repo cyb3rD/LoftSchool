@@ -13,6 +13,7 @@
 
 html, body {
 	min-width: 960px;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	background-image: url('../img/comppattern2.png');
@@ -87,8 +88,13 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 38px;
-	margin-bottom: 10px;
+	min-height: 100%;
+	margin-bottom: -76px;
 	width: 960px;
+}
+.main-content:after {
+	content: "";
+	display: block;
 }
 
 .share {
@@ -228,6 +234,10 @@ footer {
 	font-size: 15px;
 }
 
+.main-content:after, .sticky-footer {
+	height: 76px;
+}
+
 .footer-content {
 	margin-left: auto;
 	margin-right: auto;
@@ -245,8 +255,4 @@ footer {
 	margin-right: 280px;
 	font-family: FiraSansLight;
 	font-size: 13px;
-}
-
-.clearfix {
-  overflow: auto;
 }
