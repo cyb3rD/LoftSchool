@@ -1,69 +1,88 @@
-html, body {
-	min-width: 960px;
-	margin: 0px;
-	padding: 0px;
-	background-color: grey;
+html,
+body
+{
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+
+    background-color: grey;
 }
 
-header {
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
+header
+{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-footer {
-	clear: both;
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	border: 1px solid white;
+footer
+{
+    clear: both;
+
+    width: 960px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid white;
 }
 
-nav {
-	float: left;
-	height: 300px;
-	width: 250px;
-	margin-right: 50px;
-	background: yellow;
-	border-radius: 5px;
+nav
+{
+    float: left;
+
+    width: 250px;
+    height: 300px;
+    margin-right: 50px;
+
+    border-radius: 5px;
+    background: yellow;
 }
 
-.logo {
-	float: left;
-	width: 200px;
-	height: 100px;
-	border: 1px solid white;
+.logo
+{
+    float: left;
+
+    width: 200px;
+    height: 100px;
+
+    border: 1px solid white;
 }
 
-.social-buttons {
-	float: right;
-	width: 250px;
-	height: 100px;
-	border: 1px solid white;
+.social-buttons
+{
+    float: right;
+
+    width: 250px;
+    height: 100px;
+
+    border: 1px solid white;
 }
 /*All content blocks aligned in center */
-.content {
-	clear: both;
-	width: 960px;
-	padding-top: 15px;
-	margin-left: auto;
-	margin-right: auto;
+.content
+{
+    clear: both;
 
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
 }
 
-.info {
-	float: right;
-	background: white;
-	height: 400px;
-	min-width: 650px;
-	border: 1px solid black;
-	margin-bottom: 10px;
-}
-.main {
+.info
+{
+    float: right;
 
+    min-width: 650px;
+    height: 400px;
+    margin-bottom: 10px;
+
+    border: 1px solid black;
+    background: white;
 }
 
-.copyright {
-	text-align: center;
+
+.copyright
+{
+    text-align: center;
 }
